@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/thesaurus/git/d-git-hash/"}
+{"dg-publish":true,"permalink":"/thesaurus/git/2008-d-git-hash/"}
 ---
 
 # git-hash
@@ -16,7 +16,7 @@ Estos  hash se almacenan en `.git/objects/<sub-directory>`
 
 Si tenemos un hash: `2e65efe2a145dda7ee51d1741299f848e5bf752e`
 Los dos primeros caracteres son la subcarpeta en la que se almacenara el hash: `2e/`
-Los demás caracteres son el nombre del [[c-git-objects\|objeto]]: `65efe2a145dda7ee51d1741299f848e5bf752e`
+Los demás caracteres son el nombre del [[Thesaurus/Git/2008-c-git-objects\|objeto]]: `65efe2a145dda7ee51d1741299f848e5bf752e`
 ```bash
 #Así queda al final:
 .git/objects/2e/65efe2a145dda7ee51d1741299f848e5bf752e

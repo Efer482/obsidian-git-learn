@@ -1,10 +1,10 @@
 ---
-{"dg-publish":true,"permalink":"/thesaurus/git/b-comandos-git-init/"}
+{"dg-publish":true,"permalink":"/thesaurus/git/2008-b-comandos-git-init/"}
 ---
 
 # git-init
 
-`git init` no es el comando que más usaremos, pero sin duda, siempre será el primer comando que ejecutaremos en cada proyecto. Este comando establece las bases necesarias para que el proyecto pueda gestionarse a través de [[Git-GitHub\|Git]]. La mayoría de los otros comandos no están disponibles fuera de un repositorio inicializado, por lo que `git init` es esencial para comenzar a trabajar con Git.
+`git init` no es el comando que más usaremos, pero sin duda, siempre será el primer comando que ejecutaremos en cada proyecto. Este comando establece las bases necesarias para que el proyecto pueda gestionarse a través de [[Thesaurus/Git/2008-Git-GitHub\|Git]]. La mayoría de los otros comandos no están disponibles fuera de un repositorio inicializado, por lo que `git init` es esencial para comenzar a trabajar con Git.
 ## ¿Como funciona?
 
 Cuando ejecutas `git init`, Git crea un subdirectorio oculto llamado `.git` en el directorio en el que ejecutaste el comando. Este subdirectorio contiene todos los archivos y directorios necesarios para el funcionamiento interno de Git. Es el corazón del repositorio de Git.

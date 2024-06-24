@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/thesaurus/git/c-2-git-objects-seguridad/"}
+{"dg-publish":true,"permalink":"/thesaurus/git/2008-c-2-git-objects-seguridad/"}
 ---
 
 # Deteccion de Errores al Leer un Objeto
@@ -7,7 +7,7 @@ Git emplea un mecanismo de integridad que le permite detectar errores o alteraci
 
 - **Almacenar el Objeto:**
     
-    - Cuando se crea un nuevo objeto en Git (como un nuevo [[b-comandos-git-commit\|commit]] o un archivo), Git calcula el [[d-git-hash\|hash]] del contenido del objeto.
+    - Cuando se crea un nuevo objeto en Git (como un nuevo [[Thesaurus/Git/2008-b-comandos-git-commit\|commit]] o un archivo), Git calcula el [[Thesaurus/Git/2008-d-git-hash\|hash]] del contenido del objeto.
 - **Leer el Objeto:**
     
     - Cuando Git necesita leer un objeto del repositorio (por ejemplo, para mostrar el contenido de un archivo o para reconstruir el historial de commits), busca el objeto usando su hash SHA1.

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/thesaurus/git/b-comandos-git-add/"}
+{"dg-publish":true,"permalink":"/thesaurus/git/2008-b-comandos-git-add/"}
 ---
 
 # comandos-git-add
@@ -9,7 +9,7 @@ En Git al "guardar" lo que hacemos realmente es "confirmar" (commit), que regist
 ---
 ## ¿Como funciona? 
 
-Cuando añadimos un archivo Git crea un [[c-git-objects\|objeto]] de tipo Blob que contiene el contenido del archivo original
+Cuando añadimos un archivo Git crea un [[Thesaurus/Git/2008-c-git-objects\|objeto]] de tipo Blob que contiene el contenido del archivo original
 
 ---
 ### Ejemplos y sintaxis

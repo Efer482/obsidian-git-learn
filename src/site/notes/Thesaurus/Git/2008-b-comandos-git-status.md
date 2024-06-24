@@ -1,9 +1,9 @@
 ---
-{"dg-publish":true,"permalink":"/thesaurus/git/b-comandos-git-status/"}
+{"dg-publish":true,"permalink":"/thesaurus/git/2008-b-comandos-git-status/"}
 ---
 
 # git-status
-Git estatus es un comando simple, nos muestra que archivos modificados hemos añadido a un [[b-comandos-git-commit\|commit]], y cuales están pendientes de subir.
+Git estatus es un comando simple, nos muestra que archivos modificados hemos añadido a un [[Thesaurus/Git/2008-b-comandos-git-commit\|commit]], y cuales están pendientes de subir.
 
 ---
 ## ¿Como funciona?
