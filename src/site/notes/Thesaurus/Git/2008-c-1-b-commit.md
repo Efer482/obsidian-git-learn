@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/thesaurus/git/2008-c-1-b-commit/"}
 ---
 
-# git object commit
+# git object commit2
 apunta a un único árbol, marcándolo como el aspecto que tenía el proyecto en un momento determinado. Contiene metainformación sobre ese momento, como una marca de tiempo, el autor de los cambios desde la última confirmación, un puntero a las confirmaciones anteriores, etc.
 { #51a2dd}
 
