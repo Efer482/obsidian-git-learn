@@ -52,7 +52,6 @@ function getAnchorAttributes(filePath, linkTitle) {
     const fullPath = fileName.endsWith(".md")
       ? `${startPath}${fileName}`
       : `${startPath}${fileName}.md`;
-fileName = fullPath + "1";
     const file = fs.readFileSync(fullPath, "utf8");
     const frontMatter = matter(file);
     if (frontMatter.data.permalink) {
