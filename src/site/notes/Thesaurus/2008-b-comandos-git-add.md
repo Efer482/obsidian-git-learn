@@ -4,7 +4,7 @@
 
 # comandos-git-add
 
-En Git al "guardar" lo que hacemos realmente es "confirmar" (commit), que registra cambios en varios archivos y directorios, a diferencia de simplemente sobrescribir archivos. El comando `git add` prepara archivos para la próxima confirmación, pero no guarda cambios hasta usar `git commit`. Usa `git status` para ver el estado de los archivos y preparaciones.
+En Git al "guardar" lo que hacemos realmente es "confirmar" (commit), que registra cambios en varios archivos y directorios, a diferencia de simplemente sobrescribir archivos. El comando `git add` prepara archivos para la próxima confirmación, pero no guarda cambios hasta usar [[Thesaurus/2008-b-comandos-git-commit\|git commit]]. Usa [[Thesaurus/2008-b-comandos-git-status\|git status]] para ver el estado de los archivos y preparaciones.
 
 ---
 ## ¿Como funciona? 
@@ -13,6 +13,28 @@ Cuando añadimos un archivo Git crea un [[Thesaurus/2008-c-git-objects\|objeto]]
 
 ---
 ### Ejemplos y sintaxis
+
+#### Preparar todos los cambios
+```bash
+git add .
+```
+Cuando usamos "." en git hacemos referencia a todo, por lo tanto este comando prepara todos los cambios
+#### Preparar un archivo especifico
+
+```bash
+git add <file>
+```
+
+#### Preparar un directorio en especifico
+```bash
+git add <directory>
+```
+
+#### Add interactivo
+```bash
+git add -p
+```
+Nos da un entorno interactivo que nos permite seleccionar entre los distintos cambios cuales preparar y cuales no.
 
 ---
 # Bibliothecae

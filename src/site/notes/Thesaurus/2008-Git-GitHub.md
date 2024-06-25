@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/thesaurus/2008-git-git-hub/","tags":["programacion","gardenEntry"]}
+{"dg-publish":true,"permalink":"/thesaurus/2008-git-git-hub/","tags":["programacion","gardenEntry","gardenEntry","gardenEntry"]}
 ---
 
 # Git-GitHub
@@ -60,8 +60,33 @@ git init
 
 </div></div>
 
-2. [[Thesaurus/2008-b-comandos-git-status\|Validar cambios]]
-3. [[Thesaurus/2008-b-comandos-git-add\|Añadir cambios]]
+2. 
+<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/thesaurus/2008-b-comandos-git-status/#cambios-pendientes" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
+
+
+
+#### Cambios pendientes:
+```bash
+$ git status
+
+On branch main
+
+No commits yet
+
+Changes to be commited:
+	(use "git rm --cached <file>..." to unstage)
+		new file: file2.txt
+		new file: script.js
+Changes not staged for commit:
+	(use "git add <file>..." to update what will be committed)
+	(use "git store <file>.." to discard changes in working directory)
+		modified: file3.txt
+```
+
+
+</div></div>
+
+3. [[Thesaurus/2008-b-comandos-git-add\|2008-b-comandos-git-add]]
 
 
 ---

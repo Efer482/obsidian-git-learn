@@ -3,7 +3,7 @@
 ---
 
 # git-commit
-Cada que ejecutamos este comando asignamos una nueva versión del archivo, para poder rastrear sus cambios con el CVS.
+Cada que ejecutamos este comando asignamos una nueva versión del archivo, para poder rastrear sus cambios con el CVS, pero no se suben a nuestra rama remota hasta ejecutar [[Thesaurus/2008-b-comandos-git-push\|git push]].
 
 ---
 ## ¿Como funciona?
