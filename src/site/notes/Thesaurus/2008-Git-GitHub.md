@@ -1,11 +1,11 @@
 ---
-{"dg-publish":true,"permalink":"/thesaurus/2008-git-git-hub/","tags":["programacion","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry"]}
+{"dg-publish":true,"permalink":"/thesaurus/2008-git-git-hub/","tags":["programacion","gardenEntry"]}
 ---
 
 # Git-GitHub
 
 ## ¿Por que usar un CVS?
-Cuando usamos un sistema de control de versiones podemos tener control sobre los cambios en nuestros archivos, lo que nos permite:
+Cuando usamos un sistema de control de versiones podemos tener control sobre los cambios en nuestros archivos de texto plano (También permite archivos binarios, aunque no se recomienda), lo que nos permite:
 
 - **Registro de cambios:** Todos los cambios realizados en los archivos se registran con un historial detallado. Esto incluye información sobre quién realizó el cambio, cuándo se hizo y una descripción del cambio. Esto facilita el seguimiento y auditoría del desarrollo del proyecto.
     
@@ -98,6 +98,13 @@ Changes not staged for commit:
 - 
 
 </div></div>
+
+
+## Estados de Git
+Git cuenta con tres estados en los que es posible localizar archivos: Staged, Modified y Committed.
+
+## Metodo de comunicacion seguro
+Git por defecto usa SSL para la transferencia segura de archivos, SSL esta por defecto instalada en UNIX, LINUX y MAC, pero en windows es necesario instalarla
 
 
 ---
