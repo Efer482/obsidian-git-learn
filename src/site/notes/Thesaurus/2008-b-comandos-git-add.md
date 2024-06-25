@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"2008-b-comandos-git-add.md","permalink":"/2008-b-comandos-git-add/"}
+{"dg-publish":true,"permalink":"/thesaurus/2008-b-comandos-git-add/"}
 ---
 
 # comandos-git-add

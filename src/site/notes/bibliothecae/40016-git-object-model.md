@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Referencias/40016-git-object-model.md","permalink":"/referencias/40016-git-object-model/","tags":["programacion"]}
+{"dg-publish":true,"permalink":"/bibliothecae/40016-git-object-model/","tags":["programacion"]}
 ---
 
 

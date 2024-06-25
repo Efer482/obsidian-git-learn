@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"2008-c-1-tipos-objetos.md","permalink":"/2008-c-1-tipos-objetos/"}
+{"dg-publish":true,"permalink":"/thesaurus/2008-c-1-tipos-objetos/"}
 ---
 
 # Tipos de objetos

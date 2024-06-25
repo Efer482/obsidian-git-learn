@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"2008-b-comandos-git-commit.md","permalink":"/2008-b-comandos-git-commit/"}
+{"dg-publish":true,"permalink":"/thesaurus/2008-b-comandos-git-commit/"}
 ---
 
 # git-commit

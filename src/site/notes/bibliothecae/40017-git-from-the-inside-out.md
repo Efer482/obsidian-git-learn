@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Referencias/40017-git-from-the-inside-out.md","permalink":"/referencias/40017-git-from-the-inside-out/","tags":["programacion"]}
+{"dg-publish":true,"permalink":"/bibliothecae/40017-git-from-the-inside-out/","tags":["programacion"]}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Referencias/40015-inspecting-a-repository.md","permalink":"/referencias/40015-inspecting-a-repository/","tags":["programacion"]}
+{"dg-publish":true,"permalink":"/bibliothecae/40015-inspecting-a-repository/","tags":["programacion"]}
 ---
 
 

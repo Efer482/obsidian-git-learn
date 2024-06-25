@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"2008-c-2-git-objects-seguridad.md","permalink":"/2008-c-2-git-objects-seguridad/"}
+{"dg-publish":true,"permalink":"/thesaurus/2008-c-2-git-objects-seguridad/"}
 ---
 
 # Deteccion de Errores al Leer un Objeto
