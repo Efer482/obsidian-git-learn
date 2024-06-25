@@ -76,7 +76,7 @@ fileName = fullPath + "1";
       attributes: {
         "class": "internal-link is-unresolved",
         "href": "/404",
-        "target": fileName,
+        "target": filePath,
       },
       innerHTML: title,
     }
