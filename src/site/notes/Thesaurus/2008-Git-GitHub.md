@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/thesaurus/2008-git-git-hub/","tags":["programacion","gardenEntry","gardenEntry"]}
+{"dg-publish":true,"permalink":"/thesaurus/2008-git-git-hub/","tags":["programacion","gardenEntry"]}
 ---
 
 # Git-GitHub
