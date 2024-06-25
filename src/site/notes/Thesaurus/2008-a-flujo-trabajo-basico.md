@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/thesaurus/2008-a-flujo-trabajo-basico/"}
+{"dg-publish":true,"dg-path":"2008-a-flujo-trabajo-basico.md","permalink":"/2008-a-flujo-trabajo-basico/"}
 ---
 
 # flujo-trabajo-basico

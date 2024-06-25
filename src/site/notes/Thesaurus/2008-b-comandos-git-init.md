@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/thesaurus/2008-b-comandos-git-init/"}
+{"dg-publish":true,"dg-path":"2008-b-comandos-git-init.md","permalink":"/2008-b-comandos-git-init/"}
 ---
 
 # git-init

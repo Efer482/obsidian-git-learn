@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/bibliothecae/40014-git-init/","tags":["programacion"]}
+{"dg-publish":true,"dg-path":"Referencias/40014-git-init.md","permalink":"/referencias/40014-git-init/","tags":["programacion"]}
 ---
 
 

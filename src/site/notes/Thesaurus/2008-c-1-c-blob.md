@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/thesaurus/2008-c-1-c-blob/"}
+{"dg-publish":true,"dg-path":"2008-c-1-c-blob.md","permalink":"/2008-c-1-c-blob/"}
 ---
 
 # git-object-blob

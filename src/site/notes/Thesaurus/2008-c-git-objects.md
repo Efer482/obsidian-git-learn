@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/thesaurus/2008-c-git-objects/"}
+{"dg-publish":true,"dg-path":"2008-c-git-objects.md","permalink":"/2008-c-git-objects/"}
 ---
 
 # git-objects
