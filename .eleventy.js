@@ -47,6 +47,7 @@ function getAnchorAttributes(filePath, linkTitle) {
   const title = linkTitle ? linkTitle : fileName;
   let permalink = `/notes/${slugify(filePath)}`;
   let deadLink = false;
+let oe = ""
   try {
     const startPath = "./src/site/notes/";
     const fullPath = fileName.endsWith(".md")
@@ -66,8 +67,9 @@ function getAnchorAttributes(filePath, linkTitle) {
     if (frontMatter.data.noteIcon) {
       noteIcon = frontMatter.data.noteIcon;
     }
-  } catch {
+  } catch (error){
     deadLink = true;
+  oe = JSON.stringify(error);
   }
 
   if (deadLink) {
@@ -75,7 +77,7 @@ function getAnchorAttributes(filePath, linkTitle) {
       attributes: {
         "class": "internal-link is-unresolved",
         "href": "/404",
-        "target": "",
+        "target": oe,
       },
       innerHTML: title,
     }
