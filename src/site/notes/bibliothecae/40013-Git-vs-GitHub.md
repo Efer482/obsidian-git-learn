@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/bibliothecae/40013-git-vs-git-hub/","tags":["programacion"]}
+{"dg-publish":true,"dg-path":"Referencias/40013-Git-vs-GitHub.md","permalink":"/referencias/40013-git-vs-git-hub/","tags":["programacion"]}
 ---
 
 

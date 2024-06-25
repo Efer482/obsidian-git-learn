@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/thesaurus/2008-d-git-hash/"}
+{"dg-publish":true,"dg-path":"2008-d-git-hash.md","permalink":"/2008-d-git-hash/"}
 ---
 
 # git-hash

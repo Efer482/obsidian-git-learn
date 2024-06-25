@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/thesaurus/2008-c-1-a-tree/"}
+{"dg-publish":true,"dg-path":"2008-c-1-a-tree.md","permalink":"/2008-c-1-a-tree/"}
 ---
 
 # git object arbol

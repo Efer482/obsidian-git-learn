@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/thesaurus/2008-b-comandos-git-status/"}
+{"dg-publish":true,"dg-path":"2008-b-comandos-git-status.md","permalink":"/2008-b-comandos-git-status/"}
 ---
 
 # git-status
