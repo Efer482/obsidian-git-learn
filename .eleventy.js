@@ -30,37 +30,29 @@ function transformImage(src, cls, alt, sizes, widths = ["500", "700", "auto"]) {
 }
 
 function getAnchorLink(filePath, linkTitle) {
-  const { attributes, innerHTML } = getAnchorAttributes(filePath, linkTitle);
-  return `<a ${Object.keys(attributes).map(key => `${key}='${attributes[key]}'`).join(' ')}>${innerHTML}</a>`;
+  const {attributes, innerHTML} = getAnchorAttributes(filePath, linkTitle);
+  return `<a ${Object.keys(attributes).map(key => `${key}="${attributes[key]}"`).join(" ")}>${innerHTML}</a>`;
 }
 
 function getAnchorAttributes(filePath, linkTitle) {
   let fileName = filePath.replaceAll("&amp;", "&");
   let header = "";
   let headerLinkPath = "";
-  console.log("filePath=>", filePath)
   if (filePath.includes("#")) {
     [fileName, header] = filePath.split("#");
     headerLinkPath = `#${headerToId(header)}`;
-    console.log("headerLinkPath =>", headerLinkPath)
-
   }
 
   let noteIcon = process.env.NOTE_ICON_DEFAULT;
   const title = linkTitle ? linkTitle : fileName;
   let permalink = `/notes/${slugify(filePath)}`;
-  console.log("permalink=>", permalink)
   let deadLink = false;
-  try {
-
+  // try {
     const startPath = "./src/site/notes/";
-    console.log("startPath=>", startPath)
     const fullPath = fileName.endsWith(".md")
       ? `${startPath}${fileName}`
       : `${startPath}${fileName}.md`;
-    console.log("fullPath=>", fullPath)
     const file = fs.readFileSync(fullPath, "utf8");
-    console.log("file=>", file)
     const frontMatter = matter(file);
     if (frontMatter.data.permalink) {
       permalink = frontMatter.data.permalink;
@@ -74,9 +66,9 @@ function getAnchorAttributes(filePath, linkTitle) {
     if (frontMatter.data.noteIcon) {
       noteIcon = frontMatter.data.noteIcon;
     }
-  } catch {
+  // } catch {
     deadLink = true;
-  }
+  // }
 
   if (deadLink) {
     return {
@@ -337,7 +329,7 @@ module.exports = function (eleventyConfig) {
     for (const dataViewJsLink of parsed.querySelectorAll("a[data-href].internal-link")) {
       const notePath = dataViewJsLink.getAttribute("data-href");
       const title = dataViewJsLink.innerHTML;
-      const { attributes, innerHTML } = getAnchorAttributes(notePath, title);
+      const {attributes, innerHTML} = getAnchorAttributes(notePath, title);
       for (const key in attributes) {
         dataViewJsLink.setAttribute(key, attributes[key]);
       }
@@ -453,7 +445,7 @@ module.exports = function (eleventyConfig) {
 
 
   eleventyConfig.addTransform("picture", function (str) {
-    if (process.env.USE_FULL_RESOLUTION_IMAGES === "true") {
+    if(process.env.USE_FULL_RESOLUTION_IMAGES === "true"){
       return str;
     }
     const parsed = parse(str);
@@ -546,7 +538,7 @@ module.exports = function (eleventyConfig) {
       return "";
     }
   });
-
+  
   eleventyConfig.addFilter("jsonify", function (variable) {
     return JSON.stringify(variable) || '""';
   });
