@@ -38,14 +38,18 @@ function getAnchorAttributes(filePath, linkTitle) {
   let fileName = filePath.replaceAll("&amp;", "&");
   let header = "";
   let headerLinkPath = "";
+  console.log("filePath=>",filePath )
   if (filePath.includes("#")) {
     [fileName, header] = filePath.split("#");
     headerLinkPath = `#${headerToId(header)}`;
+  console.log("headerLinkPath =>", headerLinkPath)
+
   }
 
   let noteIcon = process.env.NOTE_ICON_DEFAULT;
   const title = linkTitle ? linkTitle : fileName;
   let permalink = `/notes/${slugify(filePath)}`;
+  console.log("permalink=>",permalink)
   let deadLink = false;
   try {
 
@@ -67,8 +71,7 @@ function getAnchorAttributes(filePath, linkTitle) {
     if (frontMatter.data.noteIcon) {
       noteIcon = frontMatter.data.noteIcon;
     }
-  } catch (error) {
-    console.error("Error reading the file:", error);
+  } catch {
     deadLink = true;
   }
 
