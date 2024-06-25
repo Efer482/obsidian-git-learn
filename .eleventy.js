@@ -47,7 +47,6 @@ function getAnchorAttributes(filePath, linkTitle) {
   const title = linkTitle ? linkTitle : fileName;
   let permalink = `/notes/${slugify(filePath)}`;
   let deadLink = false;
-  // try {
     const startPath = "./src/site/notes/";
     const fullPath = fileName.endsWith(".md")
       ? `${startPath}${fileName}`
@@ -66,8 +65,27 @@ function getAnchorAttributes(filePath, linkTitle) {
     if (frontMatter.data.noteIcon) {
       noteIcon = frontMatter.data.noteIcon;
     }
+  // try {
+  //   const startPath = "./src/site/notes/";
+  //   const fullPath = fileName.endsWith(".md")
+  //     ? `${startPath}${fileName}`
+  //     : `${startPath}${fileName}.md`;
+  //   const file = fs.readFileSync(fullPath, "utf8");
+  //   const frontMatter = matter(file);
+  //   if (frontMatter.data.permalink) {
+  //     permalink = frontMatter.data.permalink;
+  //   }
+  //   if (
+  //     frontMatter.data.tags &&
+  //     frontMatter.data.tags.indexOf("gardenEntry") != -1
+  //   ) {
+  //     permalink = "/";
+  //   }
+  //   if (frontMatter.data.noteIcon) {
+  //     noteIcon = frontMatter.data.noteIcon;
+  //   }
   // } catch {
-    deadLink = true;
+  //   deadLink = true;
   // }
 
   if (deadLink) {
