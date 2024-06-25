@@ -3,7 +3,7 @@
 ---
 
 # git-push
-El comando git push se encarga del envió de los cambios al repositorio remoto,
+El comando git push se encarga del envió de los cambios al [[Thesaurus/2008-e-git-repostorio-remoto\|repostorio remoto]],
 
 ---
 ## ¿Como funciona?
