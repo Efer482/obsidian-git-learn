@@ -38,26 +38,29 @@ function getAnchorAttributes(filePath, linkTitle) {
   let fileName = filePath.replaceAll("&amp;", "&");
   let header = "";
   let headerLinkPath = "";
-  console.log("filePath=>",filePath )
+  console.log("filePath=>", filePath)
   if (filePath.includes("#")) {
     [fileName, header] = filePath.split("#");
     headerLinkPath = `#${headerToId(header)}`;
-  console.log("headerLinkPath =>", headerLinkPath)
+    console.log("headerLinkPath =>", headerLinkPath)
 
   }
 
   let noteIcon = process.env.NOTE_ICON_DEFAULT;
   const title = linkTitle ? linkTitle : fileName;
   let permalink = `/notes/${slugify(filePath)}`;
-  console.log("permalink=>",permalink)
+  console.log("permalink=>", permalink)
   let deadLink = false;
   try {
 
     const startPath = "./src/site/notes/";
+    console.log("startPath=>", startPath)
     const fullPath = fileName.endsWith(".md")
       ? `${startPath}${fileName}`
       : `${startPath}${fileName}.md`;
+    console.log("fullPath=>", fullPath)
     const file = fs.readFileSync(fullPath, "utf8");
+    console.log("file=>", file)
     const frontMatter = matter(file);
     if (frontMatter.data.permalink) {
       permalink = frontMatter.data.permalink;
