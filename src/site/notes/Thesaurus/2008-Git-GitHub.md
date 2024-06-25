@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"2008-Git-GitHub.md","permalink":"/2008-git-git-hub/","tags":["programacion","gardenEntry","gardenEntry"]}
+{"dg-publish":true,"dg-path":"2008-Git-GitHub.md","permalink":"/2008-git-git-hub/","tags":["programacion","gardenEntry","gardenEntry","gardenEntry"]}
 ---
 
 # Git-GitHub
