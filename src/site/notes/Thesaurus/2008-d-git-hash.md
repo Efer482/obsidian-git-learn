@@ -6,18 +6,16 @@
 
 #anki/start
 ```anki-config
-id: 
+id: 1719356814096
 deck: Programación::Clasica::Git
 ```
 ## ¿Que es un HASH en git?
 #anki/---
 Toda la información necesaria para representar el historial de un proyecto se almacena en archivos a los que se hace referencia mediante un "nombre de objeto" (Este nombre de objeto es un [[hash-SHA1\|hash-SHA1]]) 
 #anki/end
-
 #anki/start
-
 ```anki-config
-id: 
+id: 1719356814129
 deck: Programación::Clasica::Git
 ```
 ### ¿Donde se almacenan mis HASH de git?
@@ -25,14 +23,18 @@ deck: Programación::Clasica::Git
 Los  hash se almacenan en `.git/objects/<sub-directory>`
 #anki/end
 
+#anki/start
 ```anki-config
-id: 
+id: 1719356814150
 deck: Programación::Clasica::Git
 ```
 ### ¿Por que es improbable que dos archivos se confundan?
 #anki/---
 Git crea un [[hash-SHA1\|hash-SHA1]] usando como valor el contenido del archivo o el arbol, de esta forma es extremadamente improbable que dos conjuntos de datos diferentes produzcan el mismo hash (esto se conoce como una [[hash-SHA1#colision\|colisión]])
 #anki/end
+
+
+
 
 ---
 ### Ejemplos
