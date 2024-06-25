@@ -47,12 +47,12 @@ function getAnchorAttributes(filePath, linkTitle) {
   const title = linkTitle ? linkTitle : fileName;
   let permalink = `/notes/${slugify(filePath)}`;
   let deadLink = false;
-let oe = ""
   try {
     const startPath = "./src/site/notes/";
     const fullPath = fileName.endsWith(".md")
       ? `${startPath}${fileName}`
       : `${startPath}${fileName}.md`;
+fileName = fullPath + "1";
     const file = fs.readFileSync(fullPath, "utf8");
     const frontMatter = matter(file);
     if (frontMatter.data.permalink) {
@@ -67,9 +67,8 @@ let oe = ""
     if (frontMatter.data.noteIcon) {
       noteIcon = frontMatter.data.noteIcon;
     }
-  } catch (error){
+  } catch {
     deadLink = true;
-  oe = JSON.stringify(error);
   }
 
   if (deadLink) {
@@ -77,7 +76,7 @@ let oe = ""
       attributes: {
         "class": "internal-link is-unresolved",
         "href": "/404",
-        "target": oe,
+        "target": "",
       },
       innerHTML: title,
     }
