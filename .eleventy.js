@@ -75,7 +75,7 @@ function getAnchorAttributes(filePath, linkTitle) {
       attributes: {
         "class": "internal-link is-unresolved",
         "href": "/404",
-        "target": filePath,
+        "target": "",
       },
       innerHTML: title,
     }
